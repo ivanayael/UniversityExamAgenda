@@ -1,0 +1,9 @@
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Acceso\bin\Debug\Acceso.dll
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Acceso\bin\Debug\Acceso.pdb
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Acceso\bin\Debug\Acceso.xml
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Acceso\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Acceso\obj\Debug\Acceso.Resources.resources
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Acceso\obj\Debug\Acceso.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Acceso\obj\Debug\Acceso.dll
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Acceso\obj\Debug\Acceso.xml
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Acceso\obj\Debug\Acceso.pdb

@@ -1,0 +1,12 @@
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Negocio\bin\Debug\Negocio.dll
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Negocio\bin\Debug\Negocio.pdb
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Negocio\bin\Debug\Negocio.xml
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Negocio\bin\Debug\Acceso.dll
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Negocio\bin\Debug\Acceso.pdb
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Negocio\bin\Debug\Acceso.xml
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Negocio\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Negocio\obj\Debug\Negocio.Resources.resources
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Negocio\obj\Debug\Negocio.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Negocio\obj\Debug\Negocio.dll
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Negocio\obj\Debug\Negocio.xml
+C:\Documents and Settings\Familia Currá\Mis documentos\Visual Studio 2005\Projects\Agenda de Parciales\Negocio\obj\Debug\Negocio.pdb

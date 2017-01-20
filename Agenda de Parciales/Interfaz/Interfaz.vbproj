@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C0259CE1-C612-4352-B8EA-B43E701144B8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Interfaz.My.MyApplication</StartupObject>
+    <RootNamespace>Interfaz</RootNamespace>
+    <AssemblyName>Interfaz</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>Resources\MiAgenda.ico</ApplicationIcon>
+    <OptionStrict>Off</OptionStrict>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Interfaz.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Interfaz.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAcercaDe.Designer.vb">
+      <DependentUpon>frmAcercaDe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAcercaDe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Bienvenida.Designer.vb">
+      <DependentUpon>Bienvenida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bienvenida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsAgenda.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAgenda.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAgenda.vb">
+      <DependentUpon>dsAgenda.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmContenido.Designer.vb">
+      <DependentUpon>frmContenido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmContenido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListadoNotas.Designer.vb">
+      <DependentUpon>frmListadoNotas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListadoNotas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMDIPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMDIPrincipal.Designer.vb">
+      <DependentUpon>frmMDIPrincipal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListadoMaterias.Designer.vb">
+      <DependentUpon>frmListadoMaterias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListadoMaterias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListadoParciales.Designer.vb">
+      <DependentUpon>frmListadoParciales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListadoParciales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMaterias.Designer.vb">
+      <DependentUpon>frmMaterias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMaterias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotas.Designer.vb">
+      <DependentUpon>frmNotas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmParciales.Designer.vb">
+      <DependentUpon>frmParciales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmParciales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteMateria.Designer.vb">
+      <DependentUpon>frmReporteMateria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReporteMateria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteNota.Designer.vb">
+      <DependentUpon>frmReporteNota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReporteNota.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteParcial.Designer.vb">
+      <DependentUpon>frmReporteParcial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReporteParcial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ReporteMaterias.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteMaterias.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteNotas.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteNotas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteParciales.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteParciales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAcercaDe.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAcercaDe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bienvenida.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Bienvenida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContenido.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmContenido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListadoMaterias.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmListadoMaterias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListadoNotas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmListadoNotas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListadoParciales.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmListadoParciales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMaterias.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMaterias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMDIPrincipal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMDIPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmNotas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmParciales.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmParciales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteMateria.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteMateria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteNota.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteNota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteParcial.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteParcial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteMaterias.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteMaterias.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteNotas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteNotas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteParciales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteParciales.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dsAgenda.xsc">
+      <DependentUpon>dsAgenda.xsd</DependentUpon>
+    </None>
+    <None Include="dsAgenda.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAgenda.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsAgenda.xss">
+      <DependentUpon>dsAgenda.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Negocio\Negocio.vbproj">
+      <Project>{E7C4A985-09A9-4706-BB8B-7EACBCD5A573}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magic.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quitar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limpiar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reporte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\BanFacuAgenda.bmp" />
+    <Content Include="Resources\FacuAgenda1.jpg" />
+    <Content Include="Resources\MiAgenda.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
